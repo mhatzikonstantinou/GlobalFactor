@@ -1,3 +1,7 @@
+## TODO:
+
+Check Winsorization 10% (is it 5%?)
+
 ## Overview
 This repository contains code that create a dataset of global stock returns and characteristics. The dataset was created for the paper [Is There a Replication Crisis in Finance?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3774514) by Jensen, Kelly and Pedersen (2021). Please cite this paper if you are using the code or data.
 
