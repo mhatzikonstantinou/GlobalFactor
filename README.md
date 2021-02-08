@@ -1,6 +1,17 @@
 ## TODO:
 
-Check Winsorization 10% (is it 5%?)
+Check Winsorization 10%:
+
+"Next, Hou et al. (2020) focus their analysis on value-weighted factors rather than the
+standard Fama and French (1993) methodology that gives half the weight to small stocks (or
+equal-weighting that gives even more weight to small stocks). However, pure value weighting
+sometimes leads to excessively concentrated portfolios that mask the behavior of factors.3
+We use a weighting scheme that we refer to as “capped value-weighting” that winsorizes
+market caps at the NYSE 80th percentile. This weighting is a helpful compromise between
+pure value-weighting and the Fama-French method since our factors continue to emphasize
+large stocks, but the capped scheme avoids undue skewness toward a few mega stocks, which
+in turn produces more robust factor behavior over time and across countries. Capped value
+weights contribute +8.5% to our higher replication rate."
 
 ## Overview
 This repository contains code that create a dataset of global stock returns and characteristics. The dataset was created for the paper [Is There a Replication Crisis in Finance?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3774514) by Jensen, Kelly and Pedersen (2021). Please cite this paper if you are using the code or data.
